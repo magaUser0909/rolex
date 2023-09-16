@@ -3,27 +3,40 @@ html {
     font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
     box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
 img {
     max-width: 100%;
-    height: auto;
 }
 
 body {
-  font-family: 'League Spartan', sans-serif;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .header-container {
@@ -82,10 +95,10 @@ body {
 .header-img {
     display: block;
     width: 1500px;
-    margin-top: -104px;
-    margin-left: 160px;
+    margin-left: 130px;
 }
 
+/* MAIN */
 .popular-title {
     margin-top: 43px;
     text-align: center;
@@ -106,6 +119,7 @@ body {
     width: 417px;
     margin-bottom: 85px;
 }
+
 .item-img-wrapper {
     display: flex;
     align-items: center;
@@ -155,4 +169,3 @@ body {
 .product-description-link {
     color: #99816e;
 }
- 
